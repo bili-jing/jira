@@ -6,7 +6,7 @@
     "build": "tsc && vite build",
     "serve": "vite preview",
     "prepare": "husky install",
-    "mock" : "json-server ./__json_server_mock__/db.json -w -p 30001"
+    "mock" : "json-server ./__json_server_mock__/db.json -w -p 3001"
   },
   "eslintConfig": {
     "extends": [
@@ -34,6 +34,6 @@
     "vite": "^2.4.4"
   },
   "lint-staged": {
-    "*.{js,css,md,ts,tsx}": "prettier --write"
+    "*.{js,css,md,ts,tsx,jsx}": "prettier --write"
   }
 }
